@@ -1,0 +1,24 @@
+autoscaling:
+  enabled: true
+  min: 1
+  max: 5
+  cpu: 80
+  mem: 80
+
+resources:
+  requests:
+    cpu: 500m
+    memory: 1024Mi
+  limits:
+    cpu: 600m
+    memory: 1252Mi
+
+ingress:
+  enabled: true
+  subdomain: demo-was
+  basedomain: $BASE_DOMAIN_NAME
+
+serviceaccount: $SERVICE_ACCOUNT
+
+java:
+  options: "-XX:InitialRAMPercentage=40.0 -XX:MaxRAMPercentage=80.0"
