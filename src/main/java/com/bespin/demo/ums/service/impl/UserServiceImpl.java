@@ -16,10 +16,10 @@ public class UserServiceImpl implements UserService {
   private static Long index = 4L;
 
   static {
-    User dave = new User(1L, "dave.kim", "dave@demo.com");
-    User bodoru = new User(2L, "bodoru.jung", "bodoru@demo.com");
-    User arthas = new User(3L, "arthas.choi", "arthas@demo.com");
-    User adam = new User(4L, "adam.seo", "adam@demo.com");
+    User dave = new User(1L, "aladin", "aladin@demo.com");
+    User bodoru = new User(2L, "bodoru", "bodoru@demo.com");
+    User arthas = new User(3L, "arthas", "arthas@demo.com");
+    User adam = new User(4L, "adam", "adam@demo.com");
     userMap.put(dave.getId(), dave);
     userMap.put(bodoru.getId(), bodoru);
     userMap.put(arthas.getId(), arthas);
