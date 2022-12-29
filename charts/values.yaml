@@ -20,7 +20,7 @@ pod:
   labels: {}
   annotations: {}
 
-serviceaccount: $SERVICE_ACCOUNT
+serviceaccount: eks-user
 
 command: {}
 # - "/bin/sh"

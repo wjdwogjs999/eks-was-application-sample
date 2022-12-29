@@ -16,9 +16,9 @@ resources:
 ingress:
   enabled: true
   subdomain: demo-was
-  basedomain: $BASE_DOMAIN_NAME
+  basedomain: demo.devosdev.opsnow.com
 
-serviceaccount: $SERVICE_ACCOUNT
+serviceaccount: eks-user
 
 java:
   options: "-XX:InitialRAMPercentage=40.0 -XX:MaxRAMPercentage=80.0"
