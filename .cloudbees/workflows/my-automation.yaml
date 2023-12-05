@@ -11,4 +11,5 @@ jobs:
           echo "hello world"
 on:
   push:
-    branches: []
+    branches:
+      - main
