@@ -9,7 +9,3 @@ jobs:
         shell: sh
         run: |
           echo "hello world"
-on:
-  push:
-    branches:
-      - main
